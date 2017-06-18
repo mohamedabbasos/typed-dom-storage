@@ -1,0 +1,25 @@
+{
+  "name": "typed-dom-storage",
+  "version": "1.0.0",
+  "description": "Typed version for localStorage and sessionStorage",
+  "main": "ls.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedabbasos/typed-dom-storage.git"
+  },
+  "keywords": [
+    "javascript",
+    "localStorge",
+    "sessionStorage",
+    "web"
+  ],
+  "author": "Mohamed Abbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamedabbasos/typed-dom-storage/issues"
+  },
+  "homepage": "https://github.com/mohamedabbasos/typed-dom-storage#readme"
+}
