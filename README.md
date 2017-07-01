@@ -14,7 +14,7 @@ just include `ls.min.js` file in your page.
 
 `<script src="path/to/ls.min.js"></script>`
 
-# Aviable functions
+# Available functions
 
 **Note:**
     - that all functions below are aviable for `localStorage` and `sessionStroage`.
