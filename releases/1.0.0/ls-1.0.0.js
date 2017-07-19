@@ -1,5 +1,17 @@
+/*
+ * typed-dom-storage v1.0.0
+ * https://github.com/mohamedabbasos/typed-dom-storage
+ *
+ * Author: Mohamed Abbas
+ * GitHub: https://github.com/mohamedabbasos
+ *
+ * Copyright 2016, 2017 Mohamed Abbas
+ *
+ * Date: 2017-06-26
+ */
 /*global window*/
 function Store(storeType) {
+    "use strict";
     var _this = this;
     _this.storeType = storeType;
     _this.l = _this.storeType.length;
