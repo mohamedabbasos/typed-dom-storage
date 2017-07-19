@@ -1,3 +1,14 @@
+/*
+ * typed-dom-storage v1.0.1
+ * https://github.com/mohamedabbasos/typed-dom-storage
+ *
+ * Author: Mohamed Abbas
+ * GitHub: https://github.com/mohamedabbasos
+ *
+ * Copyright 2016, 2017 Mohamed Abbas
+ *
+ * Date: 2017-07-19
+ */
 /*global window*/
 function Store(storeType) {
     var _this = this;
@@ -69,6 +80,13 @@ function Store(storeType) {
         arr.push(item);
         _this.set(key, arr);
         return arr;
+    };
+    _this.removeByIdFrom = function (itemId, arrName) {
+        var newArr = _this.get(arrName).filter(function (arrItem) {
+            return Number(arrItem.id) !== Number(itemId);
+        });
+        _this.set(arrName, newArr);
+        return _this.get(arrName);
     };
 }
 
