@@ -32,6 +32,7 @@ just include `ls.min.js` file in your page.
 * `ls.values()` => returns all stored values
 * `ls.getType(key)` => returns the type of that `key`
 * `ls.pushTo(key, item)` => if the stored value with key `key` is an array then push the new `item` to it
+* `ls.removeByIdFrom(itemId, arr)` => remove elment with id `itemId` from `arr` item.
 
 
 
